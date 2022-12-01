@@ -13,23 +13,19 @@
 a{
 	text-decoration: none;
 }
-
 body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	color: var(--color-general);
 }
-
 header{
 	background-color: var(--fondo-verde);
 	padding:25px 0;
 }
-
 header img{
 	width: 120px;
 }
-
 #hero{
 	background-image: url("../img/bg-img-01.png");
 	background-position: top center;
@@ -37,13 +33,11 @@ header img{
 	background-color: var(--fondo-verde);
 	padding: 5% 0;		
 }
-
 #hero h1{
 	color: #fff;
 	font-size: 70px;
 	font-weight: 600;
 }
-
 #hero h4{
 	color: var(--color-hero);
 	font-size: 15px;
@@ -51,11 +45,9 @@ header img{
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
-
 .color-naranja{
 	color: var(--color-naranja);
 }
-
 .btn-naranja{
 	background-color: var(--color-naranja);
 	color: #fff;
@@ -64,7 +56,6 @@ header img{
 	font-weight: 600;
 	letter-spacing: 1px;
 }
-
 .btn-naranja:hover{
 	background-color: var(--hover-naranja);
 	color: #fff;
@@ -77,26 +68,22 @@ header img{
 	font-weight: 600;
 	letter-spacing: 1px;
 }
-
 .btn-verde:hover{
 	background-color: var(--hover-verde);
-	color: #fff;}
-	
+	color: #fff;
+}	
 .section{
 	padding: 60px 0;
-	}
-
+}
 .titulo{
 	color: var(--color-titulo);
 	font-weight: 800;
 	font-size: 50px;
 	margin-bottom: 30px;
 }
-
 .titulo span{
 	color: var(--color-naranja);
 }
-
 .subtitulo{
 	color: var(--color-verde);
 	letter-spacing: 2px;
@@ -105,19 +92,16 @@ header img{
 	font-size: 16px;
 	margin-bottom: 30px;
 }
-
 .link-naranja{
 	color: var(--color-naranja);
 	font-weight: 600;
 	border-bottom: 1px solid var(--color-naranja);
 	padding-bottom: 5px;
 }
-
 .link-naranja:hover{
-	color: var (--color-naranja);
+	color: var(--color-naranja);
 	opacity: 0.8;
 }
-
 #features .card{
 	background-color: var(--fondo-cards);
 	padding: 20px;
@@ -125,22 +109,25 @@ header img{
 	border-bottom: 2px solid #fac56b;
 	border-radius: 0;
 }
-
 #features .card h3{
 	font-size: 22px;
 	font-weight: 800;
 }
-
+#performance{
+	padding-right: 20px;
+}
 #performance .card{
 	border: 0;
 	border-left: 2px solid #10393b;
 	border-radius: 0;
+	margin-top: 60px;
+	padding-left: 20px;
 }
-
 #performance .card h4{
 	font-size: 16px;
 	font-weight: 700;
 	color: #001659;
+	margin-top: 15px;
 }
 
 #performance .card h6{
@@ -148,11 +135,115 @@ header img{
 	font-weight: 500;
 	color: #54595F;
 }
-
-#performance img{
-    
-	
+#hero-title{
+	background-image: url("../img/bg-img-01.png");
+	background-size: cover;
+	background-position: top center;
+	background-color: var(--color-general);
+	padding-top: 10%;
+	padding-bottom: 20%;
 }
+#hero-title h3{
+	color: var(--color-verde);
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+#hero-title .titulo{
+	color: #fff;
+	font-size: 60px;
+}    
+#form-contact{
+	padding: 30px 0;
+}
+#form-contact h3{
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 35px;
+}
+#form-contact li{
+	margin-bottom: 10px;
+}
+#form-contact .la-map-marker{
+	color: #FAC56B;
+}
+#form-contact .la-phone{
+	color: #0085F2;
+}
+#form-contact .la-envelope{
+	color: #FF5C00;
+}
+#form-contact form{
+	margin-top: 100px;
+}
+#form-contact .info-form{
+	margin-top: -50;
+	background-color: #fff;
+	padding: 25px 30px 50px;
+	text-align: center;
+	box-shadow: 0px 0px 30px 4px #ddd;
+}
+#form-contact input,
+#form-contact textarea{
+	padding: 15px;
+	border-radius: 0;
+	background-color: #fbfbfb;
+	border: 0;
+}
+.img-hover img{
+	opacity: 0.6;
+	transition: all 0.4s ease-in-out;
+	filter: sepia(0);
+}
+.img-hover img:hover{
+	opacity: 1;
+	transition: all 0.4s ease-in-out;
+	filter: sepia(0);
+}
+footer{
+	padding: 60px;
+	background-color: #fafafa;
+}
+
+footer a{
+	color: var(--color-general);
+	font-size: 14px;
+}
+footer a:hover{
+	color: var(--color-naranja);
+}
+footer h3{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+footer img{
+	margin-bottom: 25px;
+}
+footer ul{
+	font-size: 14px;
+}
+
+footer li{
+	margin-bottom: 10px;
+}
+#hero-carousel h5{
+	color: var(--fondo-verde);
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+#hero-carousel .titulo{
+	color: #fff;
+	font-size: 58px;
+}
+#hero-carousel .carousel-caption .btn-naranja{
+	display: inline-block !important;
+}
+
+
 	
 
 
